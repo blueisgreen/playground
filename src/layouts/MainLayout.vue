@@ -41,6 +41,36 @@ import EssentialLink from "components/EssentialLink.vue";
 
 const linksList = [
   {
+    title: "Home",
+    caption: "Playground",
+    icon: "home",
+    page: "home",
+  },
+  {
+    title: "Comparanator",
+    caption: "Compare things",
+    icon: "scale",
+    page: "comparanator",
+  },
+  {
+    title: "Alt Comparanator",
+    caption: "Another way to compare things",
+    icon: "scale",
+    page: "comparanatorAlt1",
+  },
+  {
+    title: "PWR Simulator",
+    caption: "Try running a pressurized water reactor",
+    icon: "settings",
+    page: "pwrSim",
+  },
+  {
+    title: "Decay Chains",
+    caption: "See what happens to radioactive fuel",
+    icon: "link",
+    page: "decayChains",
+  },
+  {
     title: "Quasar Docs",
     caption: "quasar.dev",
     icon: "school",
@@ -51,18 +81,6 @@ const linksList = [
     caption: "github.com/blueisgreen",
     icon: "code",
     link: "https://github.com/blueisgreen",
-  },
-  {
-    title: "Home",
-    caption: "Playground",
-    icon: "home",
-    page: "home",
-  },
-  {
-    title: "Comparanator",
-    caption: "Compare things",
-    icon: "home",
-    page: "comparanator",
   },
 ];
 
